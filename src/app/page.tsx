@@ -1,7 +1,10 @@
-import Image from "next/image";
-
+import Hero from "@/components/Hero";
+import Jobs from "@/components/Jobs";
 export default function Home() {
   return (
-    <main>Hello World</main>
+    <main>
+      <Hero />
+      <Jobs />
+    </main>
   );
 }
